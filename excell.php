@@ -1,3 +1,6 @@
+<?php include("db.php") ?>
+<?php include("includes/header.php") ?>
+<?php error_reporting(E_ALL) ?>
 <?php
 header("Content-Type: applicatioon/xls");
 header("Content-Disposition: attachment; filename=archivo.xls");
